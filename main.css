@@ -1,0 +1,70 @@
+:root {
+  /* ## Colors
+
+### Primary */
+
+  --Tomato: hsl(4, 100%, 67%);
+  /* 
+### Neutral */
+
+  --DarkSlateGrey: hsl(234, 29%, 20%);
+  --CharcoalGrey: hsl(235, 18%, 26%);
+  --Grey: hsl(231, 7%, 60%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-mobile {
+  display: block;
+  width: 100%;
+}
+
+.form-section {
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: left;
+  color: var(--CharcoalGrey);
+}
+
+p {
+  color: var(--CharcoalGrey);
+  font-size: 16px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  width: 300px;
+  margin: auto 0;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+}
+
+.list-p {
+  padding-left: 5px;
+  line-height: 1.4;
+}
+.list-img {
+  padding-right: 10px;
+}
