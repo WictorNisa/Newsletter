@@ -170,8 +170,9 @@ label {
 }
 
 .attribution {
-    margin-top: 1em;
-    color: var(--White);
+  text-align: center;
+  margin: auto;
+  color: black;
 }
 
 .attribution a {
@@ -189,6 +190,11 @@ label {
     align-items: center;
     width: 100vw;
     height: 100vh;
+  }
+
+  .attribution {
+    margin-top: 1em;
+    color: var(--White);
   }
 
   .main-wrap {
