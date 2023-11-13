@@ -52,30 +52,38 @@
         </ul>
         <div class="form-div">
           <form action="">
-            <label for="email">Email Adress:</label><br />
+            <label for="email">Email Adress</label><br />
             <input
-              type="text"
+              type="email"
               id="email"
               name="email"
               placeholder="email@company.com"
+              required
             /><br />
-            <input type="submit" class="submit-button" />
+
+            <button type="submit" class="submit-button">
+              <p>Subscribe to monthly newsletter</p>
+            </button>
           </form>
         </div>
       </section>
     </div>
 
-    <!-- Sign-up form start -->
-
-    <!-- Email address email@company.com Subscribe to monthly newsletter -->
-
-    <!-- Sign-up form end -->
-
-    <!-- Success message start -->
-
-    <!-- Thanks for subscribing! A confirmation email has been sent to
-    ash@loremcompany.com. Please open it and click the button inside to confirm
-    your subscription. Dismiss message -->
+   
+    <!-- T  Dismiss message -->
+    <section class="success-div">
+      <div class="confirmation-div">
+        <img src="assets/images/icon-success.svg" alt="image of a check box" class="check-symbol">
+        <h2 class="confirmation-h2">Thanks for subscribing!</h2>
+        <p class="confirmation-p">A confirmation email has been sent to
+          <span>ash@loremcompany.com.</span> Please open it and click the button inside to confirm
+          your subscription.</p>
+      </div>
+      <div class="button-div">
+        <button class="dissmiss-button"><p>Dissmiss message</p></button>
+      </div>
+      
+    </section>
 
     <!-- Success message end -->
 
